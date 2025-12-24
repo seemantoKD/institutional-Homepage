@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Design</title>
+
+    <!-- cdn for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- cdn for font-awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header starts here -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>
+                Welcome to the world’s biggest university, where millions of students
+                learn, grow, and build their future through quality education and innovation.
+            </p>
+            <a href="" class="hero-btn" onclick="hideMenu()">Visit Us To Know More</a>
+        </div>
+    </section>
+    <!-- header ends here -->
+
+    <!-- course section starts here -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>This advanced level focuses on specialization and research-oriented learning, helping students gain
+            expertise and leadership skills in their chosen field.
+        </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    This level is designed for learners who already understand the basics and want to strengthen their
+                    skills
+                    through practical examples and deeper concepts.
+                </p>
+            </div>
+
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    This program offers in-depth knowledge and advanced training, preparing students for professional
+                    careers
+                    with a strong foundation in theory and real-world applications.
+                </p>
+            </div>
+
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                    This advanced program focuses on specialized knowledge, research, and professional expertise to help
+                    graduates excel in their chosen field and leadership roles.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- course section ends here -->
+
+    <!-- campus section starts here -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>
+            We provide a world-class learning environment that connects students from around the globe, offering diverse
+            cultures,
+            modern facilities, and opportunities for international collaboration.
+        </p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- campus section ends here -->
+
+    <!-- facilities section starts here -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>
+            Modern facilities include libraries, labs, sports complexes, housing, and dining.
+        </p>
+        <div class="row">
+            <div class="facilites-col">
+                <img src="images/library.png" alt="library">
+                <h3>World Class Library</h3>
+                <p>
+                    Our world class library offers extensive resources, quiet study spaces, digital access, expert
+                    support, and a comfortable environment that encourages research, learning, and academic excellence.
+                </p>
+            </div>
+
+            <div class="facilites-col">
+                <img src="images/basketball.png" alt="library">
+                <h3>Largest Play Ground</h3>
+                <p>
+                    Our modern basketball facility provides professional courts, quality equipment, seating areas, and
+                    training spaces that promote fitness, teamwork, skill development, and competitive sports
+                    excellence.
+                </p>
+            </div>
+
+            <div class="facilites-col">
+                <img src="images/cafeteria.png" alt="library">
+                <h3>Tasty and Healthy Food</h3>
+                <p>
+                    Our cafeteria serves fresh, nutritious meals prepared daily, offering diverse menu options in a
+                    clean, welcoming space that supports student health, energy, and overall well being.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- facilities section ends here -->
+
+    <!-- testimonials section starts here -->
+    <section class="testimonials">
+        <h1>What Our Students Says</h1>
+        <p>
+            Our students share their experiences, achievements, and feedback about campus life, academics, and the
+            supportive environment that helps them succeed.
+        </p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>
+                        This university has provided excellent learning opportunities, supportive teachers, modern
+                        facilities, and a friendly campus environment that helped me grow academically, socially, and
+                        confidently throughout my journey.
+                    </p>
+                    <h3>Christin Berley</h3>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>
+                        This university has provided excellent learning opportunities, supportive teachers, modern
+                        facilities, and a friendly campus environment that helped me grow academically, socially, and
+                        confidently throughout my journey.
+                    </p>
+                    <h3>David Byer</h3>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonials section ends here -->
+
+    <!-- call to action starts here -->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="" class="hero-btn">Contact Us</a>
+    </section>
+    <!-- call to section ends here -->
+
+    <!-- footer section starts here -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            We are dedicated to delivering high-quality services and solutions that meet the evolving needs of our
+            customers.<br>
+            Our team focuses on innovation, reliability, and customer satisfaction, ensuring every experience is simple,
+            effective, and trustworthy.<br>
+            We believe in building long-term relationships through transparency,
+            creativity,and continuous improvement.
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> By Seemanto Kumar Dash</p>
+    </section>
+
+    <!-- footer section ends here -->
+
+    <!-- -------JavaScript------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
